@@ -17,7 +17,7 @@ From: ubuntu:20.10
     # this is a X11 dep
     apt-get -y install libxext6
     # tools to open PDF and HTML files
-    apt-get -y install firefox xpdf
+    #apt-get -y install firefox xpdf
     # some extra devel libs
     apt-get -y install zlib1g-dev libssl-dev libpng-dev uuid-dev
     # other
