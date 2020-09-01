@@ -46,5 +46,6 @@ From: ubuntu:20.10
     export LC_ALL=en_US.UTF-8
     export XDG_RUNTIME_DIR=""
     export PATH=/opt/miniconda3/bin:$PATH
+    # add necessary lines to invoke rnaseq2
     . "/opt/miniconda3/etc/profile.d/conda.sh"
     conda activate rnaseq2
