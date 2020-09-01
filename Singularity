@@ -46,5 +46,5 @@ From: ubuntu:20.10
     export LC_ALL=en_US.UTF-8
     export XDG_RUNTIME_DIR=""
     export PATH=/opt/miniconda3/bin:$PATH
-    echo "source /opt/miniconda3/etc/profile.d/conda.sh" >> $SINGULARITY_ENVIRONMENT
-    echo "conda activate rnaseq2" >> $SINGULARITY_ENVIRONMENT
+    source /opt/miniconda3/etc/profile.d/conda.sh
+    conda activate rnaseq2
