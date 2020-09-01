@@ -34,7 +34,7 @@ From: ubuntu:20.10
     conda config --add channels bioconda
 
     # install some dependencies to build R packages
-    apt-get -y install build-essential gfortran
+    #apt-get -y install build-essential gfortran
 
     # install some bioinfo tools from Bioconda
     conda create -y -n rnaseq2 -c bioconda cutadapt fastqc hisat2 samtools rsem bowtie2 trimmomatic
